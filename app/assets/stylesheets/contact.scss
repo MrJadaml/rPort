@@ -1,0 +1,69 @@
+/* Contact */
+
+.contact {
+  width: inherit;
+  height: 600px;
+  padding-top: 50px;
+  background-image: url(/assets/images/iceland-crunch-sm.png);
+  background-size: 1440px 650px;
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  -moz-filter: brightness(90%);
+  -o-filter: brightness(90%);
+  -ms-filter: brightness(90%);
+}
+
+.contact-forms {
+  width: 50%;
+  padding: 8px 16px 8px 10px;
+  border-radius: 6px;
+  margin: 0 auto;
+  background-color: rgba(16, 17, 18, .8);
+}
+
+.contact textarea {
+  width: 100%;
+  padding: 16px 14px 0 14px;
+  margin: 8px 4px;
+  resize: none;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+
+  font-size: 1.1em;
+  color: white;
+}
+
+.contact ::-webkit-input-placeholder {
+  font: 1em;
+  color: rgba(229, 231, 230, 0.8);
+}
+
+.contact-name {}
+.contact-email {}
+.contact-message textarea {
+  height: 200px;
+}
+
+.contact button {
+  padding: 10px;
+  margin: 0 4px 5px 4px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+}
+
+.contact button:hover {
+  border: 2px solid rgba(26, 147, 130, 0.8);
+  color: white;
+}
+
+.contact button:focus {
+  outline: 0;
+}
+
+.contact input:focus, textarea:focus {
+  outline: 0;
+  background: rgba(255, 255, 255, 0.1)
+}

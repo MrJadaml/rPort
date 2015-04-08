@@ -1,0 +1,47 @@
+*, *:before, *:after { box-sizing: border-box }
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height:100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, section, .container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  width: inherit;
+  height: 800px;
+  color: white;
+
+  // http://somadesign.ca/demos/better-google-fonts/
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-image: url(https://ununsplash.imgix.net/uploads/14115120538776712c565/a699942a?q=75&fm=jpg&s=5379239231f09deb4570e043e0bec939);
+  background-size: 1450px;
+}
+
+.myname {
+  padding-right:72px;
+  float: right;
+  position: relative;
+  top: 355px;
+}
+
+.adam {
+font-size: 180px;
+padding-left: 9px;
+}
+
+.lichty {
+font-size: 120px;
+letter-spacing: 18px;
+ line-height: 24px;
+
+}

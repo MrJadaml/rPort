@@ -1,11 +1,12 @@
-- form_for @message do |f|
-  = f.label :name
-  = f.text_field :name
+.contact-forms
+  = form_for @message do |f|
+    .contact-name
+      = f.text_field :name, placeholder: 'Name'
 
-  = f.label :email
-  = f.text_field :email
+    .contact-email
+      = f.text_field :email, placeholder: 'Email'
 
-  = f.label :message
-  = f.text_area :message
+    .contact-message
+      = f.text_area :message, placeholder: 'Message'
 
-  = f.submit
+      = f.submit

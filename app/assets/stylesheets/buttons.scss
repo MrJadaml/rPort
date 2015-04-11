@@ -1,4 +1,4 @@
-input[type=submit] {
+.btn, input[type=submit] {
   padding: 10px;
   margin: 0 4px 5px 4px;
   background: transparent;
@@ -7,11 +7,17 @@ input[type=submit] {
   color: white;
 }
 
-input[type=submit]:hover {
+.btn:hover, input[type=submit]:hover {
   border: 2px solid rgba(26, 147, 130, 0.8);
   color: white;
 }
 
-input[type=submit]:focus {
+.btn:focus, input[type=submit]:focus {
   outline: 0;
+}
+
+.btn.project {
+  text-decoration: none;
+  border-color: rgba(196, 54, 227, 1);
+  color: rgba(196, 54, 227, 1)
 }

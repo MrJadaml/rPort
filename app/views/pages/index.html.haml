@@ -4,7 +4,15 @@
       %span.adam ADAM
       %br
       %span.lichty LICHTY
+
   .portfolio
+    = @projects.each do |project|
+      .project
+        = link_to project_path(project.id) do
+          .project-title
+            .h3= project.title
+            .project-image
+    = link_to 'Add Project', new_project_path, class: 'btn'
 
   .about
 

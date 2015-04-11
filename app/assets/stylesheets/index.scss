@@ -35,13 +35,20 @@ html, body, section, .container {
 }
 
 .adam {
-font-size: 180px;
-padding-left: 9px;
+  font-size: 180px;
+  padding-left: 9px;
 }
 
 .lichty {
-font-size: 120px;
-letter-spacing: 18px;
- line-height: 24px;
+  font-size: 120px;
+  letter-spacing: 18px;
+  line-height: 24px;
+}
 
+.form {
+  width: 50%;
+  padding: 8px 16px 8px 10px;
+  border-radius: 6px;
+  margin: 0 auto;
+  background-color: rgba(16, 17, 18, .8);
 }

@@ -1,0 +1,17 @@
+input[type=submit] {
+  padding: 10px;
+  margin: 0 4px 5px 4px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+}
+
+input[type=submit]:hover {
+  border: 2px solid rgba(26, 147, 130, 0.8);
+  color: white;
+}
+
+input[type=submit]:focus {
+  outline: 0;
+}

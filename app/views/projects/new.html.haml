@@ -1,0 +1,6 @@
+.form
+  = form_for @project do |f|
+    .project-title
+      = f.text_field :title, placeholder: 'Title'
+
+    = f.submit

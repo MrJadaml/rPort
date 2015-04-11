@@ -1,4 +1,4 @@
-.contact-forms
+.form
   = form_for @message do |f|
     .contact-name
       = f.text_field :name, placeholder: 'Name'
@@ -9,4 +9,4 @@
     .contact-message
       = f.text_area :message, placeholder: 'Message'
 
-      = f.submit
+    = f.submit

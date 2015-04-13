@@ -1,9 +1,6 @@
 .messages
   - @messages.each do |message|
     .message
-      .name
-        = message.name
-      .email
-        = message.email
-      .note
-        = message.message
+      .name= message.name
+      .email= message.email
+      .note= message.message

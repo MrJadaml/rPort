@@ -1,5 +1,9 @@
 .form
   = form_for @project do |f|
+    .project-image
+      = f.file_field :avatar
+      = f.hidden_field :avatar_cache
+
     .project-title
       = f.text_field :title, placeholder: 'Title'
 

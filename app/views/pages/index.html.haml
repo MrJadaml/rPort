@@ -13,6 +13,7 @@
             .h3= project.title
             .project-image
               = image_tag project.avatar.url
+        = link_to 'Edit Project', edit_project_path(project.id), class: 'btn project'
     = link_to 'Add Project', new_project_path, class: 'btn project'
 
   .about

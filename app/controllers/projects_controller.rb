@@ -6,7 +6,24 @@ class ProjectsController < ApplicationController
 
   def create
     project = Project.create(project_params)
-    redirect_to :root if project.save
+    if project.save
+      redirect_to :root
+    else
+      render :new
+    end
+  end
+
+  def edit
+    @project = Project.find(params[:id])
+  end
+
+  def destroy
+    project = Project.find(params[:id])
+    if project.destroy
+      redirect_to :root
+    else
+      render :edit
+    end
   end
 
 private

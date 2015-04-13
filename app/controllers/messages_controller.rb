@@ -1,14 +1,18 @@
 class MessagesController < ApplicationController
 
-    def create
-      @message = Message.new(message_params)
-      redirect_to :root
-    end
+  def index
+    @messages = Message.all
+  end
 
-  private
+  def create
+    @message = Message.create(message_params)
+    redirect_to :root if @message.save
+  end
 
-    def message_params
-      params.require(:message).permit(:name, :email, :message)
-    end
+private
+
+  def message_params
+    params.require(:message).permit(:name, :email, :message)
+  end
 
 end

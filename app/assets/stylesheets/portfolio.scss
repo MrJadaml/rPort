@@ -1,0 +1,39 @@
+.portfolio {
+  width: 100%;
+  text-align: center;
+}
+
+.project {
+  width: 32%;
+  display: inline-block;
+  a {
+    text-decoration: none;
+  }
+}
+
+.project-title {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 2em;
+  width:  75%;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  top: 4em;
+  left: 11%;
+  padding: 10px 0px 8px 8px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.project-image img {
+  width: 100%;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+}

@@ -10,4 +10,5 @@
       = f.text_area :message, placeholder: 'Message'
 
     = f.submit
-  = link_to 'All Messages', messages_path, class: 'btn btn-message btn-forum'
+  -if admin_session
+    = link_to 'All Messages', messages_path, class: 'btn btn-message btn-forum'

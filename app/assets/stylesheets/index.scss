@@ -16,6 +16,12 @@ html, body, section, .container {
   width: 100%;
 }
 
+.nav {
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+}
+
 .cover {
   width: inherit;
   height: 800px;

@@ -1,26 +1,23 @@
-.container
-  -if admin_session
-    .nav
-      = link_to 'Add Project', new_project_path, class: 'btn btn-nav'
-      = link_to 'All Messages', messages_path, class: 'btn btn-nav'
-      = link_to 'Log Out', logout_path, class: 'btn btn-nav', method: :delete
+-if admin_session
+  .nav
+    = link_to 'Add Project', new_project_path, class: 'btn btn-nav'
+    = link_to 'All Messages', messages_path, class: 'btn btn-nav'
+    = link_to 'Log Out', logout_path, class: 'btn btn-nav', method: :delete
 
-  .cover
-    .myname
-      %span.adam ADAM
-      %br
-      %span.lichty LICHTY
+.cover
+  .myname
+    %span.adam ADAM
+    %br
+    %span.lichty LICHTY
 
-  .portfolio
-    - @projects.each do |project|
-      .project
-        = link_to project.link, target: '_blank' do
-          .project-title= project.title
-          .project-image= image_tag project.avatar.url
-        - if admin_session
-          = link_to 'Edit Project', edit_project_path(project.id), class: 'btn btn-edit project'
+.portfolio
+  - @projects.each do |project|
+    .project
+      = link_to project.link, target: '_blank' do
+        .project-image= image_tag project.avatar.url
+        .project-title= project.title
+      - if admin_session
+        = link_to 'Edit Project', edit_project_path(project.id), class: 'btn btn-edit project'
 
-  .about
-
-  .contact
-    = render 'pages/contact'
+.contact
+  = render 'pages/contact'

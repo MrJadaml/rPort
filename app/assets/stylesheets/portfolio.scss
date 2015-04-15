@@ -1,32 +1,65 @@
 .portfolio {
   width: 100%;
   text-align: center;
+  overflow: hidden
 }
 
 .project {
-  width: 32%;
-  display: inline-block;
+  width: 100%;
+  float: left;
   a {
     text-decoration: none;
+    position: relative;
+    float: left;
+  }
+
+  @media (min-width: 500px) {
+    width: 49%;
+    margin-left: 4px;
+  }
+
+  @media (min-width: 760px) {
+    width: 32.7%;
   }
 }
 
 .project-title {
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  font-size: 2em;
-  width:  75%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   text-align: center;
-  position: relative;
-  z-index: 1;
-  top: 4em;
-  left: 11%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
   padding: 10px 0px 8px 8px;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+
+  width:  72%;
+  font-size: 1.4em;
+  letter-spacing: 5px;
+
+  @media (min-width: 336px) {
+    font-size: 1.6em;
+  }
+
+  @media (min-width: 410px) {
+    width: 60%;
+  }
+
+  @media (min-width: 500px) {
+    width: 75%;
+    font-size: 0.8em;
+    padding: 8px 0px 6px 6px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
 }
 
 .project-image img {

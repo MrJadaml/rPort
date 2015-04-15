@@ -132,9 +132,13 @@ html, body, section, .container {
 }
 
 .form {
-  width: 50%;
+  width: 90%;
   padding: 8px 16px 8px 10px;
   border-radius: 6px;
   margin: 0 auto;
   background-color: rgba(16, 17, 18, .8);
+
+  @media (min-width: 610px) {
+    width: 560px;
+  }
 }

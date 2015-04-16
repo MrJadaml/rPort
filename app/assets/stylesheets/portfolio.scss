@@ -53,11 +53,19 @@
   }
 
   @media (min-width: 500px) {
-    width: 75%;
-    font-size: 0.8em;
+    width: 78%;
+    font-size: 0.9em;
     padding: 8px 0px 6px 6px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
+  }
+
+  @media (min-width: 660px) {
+    bottom: 8em;
+  }
+
+  @media (min-width: 760px) {
+    
   }
 
 }

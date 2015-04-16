@@ -1,0 +1,465 @@
+/* line 1, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn, input[type=submit] {
+  padding: 10px;
+  margin: 0 4px 5px 4px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+/* line 12, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn:hover, input[type=submit]:hover {
+  border: 2px solid rgba(26, 147, 130, 0.8);
+  color: white;
+}
+
+/* line 17, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn:focus, input[type=submit]:focus {
+  outline: 0;
+}
+
+/* line 21, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.nav .btn {
+  border-color: #8666b2;
+  color: #8666b2;
+  float: right;
+  margin-top: 5px;
+}
+
+/* line 28, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn.project {
+  border-color: #c436e3;
+  color: #c436e3;
+}
+
+/* line 33, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.project.btn-edit {
+  position: relative;
+  border-color: white;
+  color: white;
+  bottom: 4.3em;
+}
+
+/* line 40, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn-delete {
+  margin: 10px;
+}
+
+/* line 44, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/buttons.scss */
+.btn-forum {
+  margin: 4px;
+  top: 1em;
+  position: relative;
+}
+/* Contact */
+/* line 4, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/contact.scss */
+.contact {
+  padding: 50px 0;
+  background-image: url("https://s3-us-west-2.amazonaws.com/jadam-portfolio/iceland-crunch-sm.png");
+  background-size: 1440px 650px;
+}
+
+/* line 10, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/contact.scss */
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px 14px;
+  margin: 8px 4px;
+  resize: none;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 1.1em;
+  color: white;
+}
+
+/* line 24, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/contact.scss */
+::-webkit-input-placeholder {
+  font: 1em;
+  color: rgba(229, 231, 230, 0.8);
+}
+
+/* line 29, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/contact.scss */
+input {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 8px 4px;
+  resize: none;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 1.1em;
+  color: white;
+}
+
+/* line 42, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/contact.scss */
+input:focus, textarea:focus {
+  outline: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* line 1, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 3, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 11, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+html, body, section, .container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 19, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.nav {
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+}
+
+/* line 25, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.cover {
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 100%;
+}
+
+/* line 30, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.myname {
+  padding-top: 56.25%;
+  /* 450px/800px = 0.5625 */
+  background-image: url("https://s3-us-west-2.amazonaws.com/jadam-portfolio/cover-mobile.png");
+  background-size: cover;
+  -moz-background-size: cover;
+  background-position: center;
+  margin-bottom: 4px;
+  text-align: right;
+  background-repeat: no-repeat;
+}
+@media (min-width: 410px) {
+  /* line 30, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .myname {
+    background-image: url("https://s3-us-west-2.amazonaws.com/jadam-portfolio/cover-mobile-plus.jpg");
+    background-size: cover;
+  }
+}
+@media (min-width: 720px) {
+  /* line 30, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .myname {
+    background-image: url("https://s3-us-west-2.amazonaws.com/jadam-portfolio/cover-tablet.png");
+    background-size: cover;
+  }
+}
+@media (min-width: 1100px) {
+  /* line 30, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .myname {
+    background-image: url("https://s3-us-west-2.amazonaws.com/jadam-portfolio/cover-full.png");
+    background-size: cover;
+  }
+}
+
+/* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.adam {
+  position: relative;
+  right: 24px;
+  bottom: 62px;
+  font-size: 2em;
+}
+@media (min-width: 370px) {
+  /* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .adam {
+    right: 26px;
+    bottom: 70px;
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 458px) {
+  /* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .adam {
+    right: 36px;
+    bottom: 86px;
+    font-size: 3em;
+  }
+}
+@media (min-width: 553px) {
+  /* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .adam {
+    right: 50px;
+    bottom: 108px;
+    font-size: 3.2em;
+  }
+}
+@media (min-width: 664px) {
+  /* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .adam {
+    right: 68px;
+    bottom: 128px;
+    font-size: 4em;
+  }
+}
+@media (min-width: 760px) {
+  /* line 57, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .adam {
+    right: 88px;
+    bottom: 151px;
+    font-size: 4.6em;
+  }
+}
+
+/* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.lichty {
+  position: relative;
+  bottom: 63px;
+  letter-spacing: 17px;
+  font-size: 1em;
+}
+@media (min-width: 370px) {
+  /* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .lichty {
+    bottom: 73px;
+    font-size: 1.4em;
+    letter-spacing: 18px;
+  }
+}
+@media (min-width: 458px) {
+  /* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .lichty {
+    bottom: 92px;
+    font-size: 1.5em;
+    letter-spacing: 22px;
+  }
+}
+@media (min-width: 553px) {
+  /* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .lichty {
+    right: 10px;
+    bottom: 112px;
+    font-size: 1.6em;
+    letter-spacing: 24px;
+  }
+}
+@media (min-width: 664px) {
+  /* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .lichty {
+    right: 20px;
+    bottom: 136px;
+    font-size: 1.8em;
+    letter-spacing: 30px;
+  }
+}
+@media (min-width: 760px) {
+  /* line 94, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .lichty {
+    right: 32px;
+    bottom: 160px;
+    font-size: 2em;
+    letter-spacing: 35px;
+  }
+}
+
+/* line 134, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+.form {
+  width: 90%;
+  padding: 8px 16px 8px 10px;
+  border-radius: 6px;
+  margin: 0 auto;
+  background-color: rgba(16, 17, 18, 0.8);
+}
+@media (min-width: 610px) {
+  /* line 134, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/index.scss */
+  .form {
+    width: 560px;
+  }
+}
+/* line 5, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/messages.scss */
+.message {
+  width: 48%;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+/* line 13, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/messages.scss */
+.name {
+  font-size: 2em;
+  padding: 0 3px 3px 0;
+  display: inline-block;
+}
+
+/* line 19, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/messages.scss */
+.email {
+  font-size: 1em;
+  display: inline-block;
+}
+
+/* line 24, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/messages.scss */
+.note {
+  border-top: 1px solid black;
+  font-size: 1em;
+  padding: 15px 0;
+}
+/* line 1, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+.portfolio {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 7, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+.project {
+  width: 100%;
+  float: left;
+}
+/* line 10, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+.project a {
+  text-decoration: none;
+  position: relative;
+  float: left;
+}
+@media (min-width: 500px) {
+  /* line 7, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project {
+    width: 49%;
+    margin-left: 4px;
+  }
+}
+@media (min-width: 760px) {
+  /* line 7, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project {
+    width: 32.7%;
+  }
+}
+
+/* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+.project-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 0px 8px 8px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 72%;
+  font-size: 1.4em;
+  letter-spacing: 5px;
+}
+@media (min-width: 336px) {
+  /* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project-title {
+    font-size: 1.6em;
+  }
+}
+@media (min-width: 410px) {
+  /* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project-title {
+    width: 60%;
+  }
+}
+@media (min-width: 500px) {
+  /* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project-title {
+    width: 78%;
+    font-size: 0.9em;
+    padding: 8px 0px 6px 6px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+}
+@media (min-width: 660px) {
+  /* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+  .project-title {
+    bottom: 8em;
+  }
+}
+
+/* line 73, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/portfolio.scss */
+.project-image img {
+  width: 100%;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+}
+/* line 1, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 22, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 29, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 32, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 35, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 40, /Users/Jadam/workspace/rails/rPortfolio/app/assets/stylesheets/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+
+
+ */
+

@@ -18,3 +18,5 @@
 
 #Ignore uploader images.
 /public/uploads/*
+
+.env

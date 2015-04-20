@@ -9,6 +9,8 @@
     %span.adam ADAM
     %br
     %span.lichty LICHTY
+    %br
+    %span.webdev WEB DEVELOPER
 
 .portfolio
   .projects
@@ -22,3 +24,12 @@
 
 .contact
   = render 'pages/contact'
+
+.footer
+  .icons
+    = link_to "https://twitter.com/MrJadaml" do
+      - image_tag('twitter_icon_sm.png', width: "20em")
+    = link_to "https://github.com/MrJadaml" do
+      - image_tag('github_icon_sm.png', width: "20em")
+    = link_to "https://www.linkedin.com/in/adamlichty" do
+      - image_tag('linkedin_icon_sm.png', width: "20em")

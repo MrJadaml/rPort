@@ -131,6 +131,44 @@ html, body, section, .container {
   }
 }
 
+.webdev {
+  position: relative;
+  right: 16px;
+  bottom: 65px;
+  letter-spacing: 5.4px;
+  font-size: .2em;
+
+  @media (min-width: 370px) {
+    bottom: 78px;
+    letter-spacing: 7.4px;
+  }
+
+  @media (min-width: 458px) {
+    bottom: 96px;
+    letter-spacing: 9.6px;
+  }
+
+  @media (min-width: 553px) {
+    right: 28px;
+    bottom: 118px;
+    letter-spacing: 10.9px;
+  }
+
+  @media (min-width: 664px) {
+    right: 45px;
+    bottom: 139px;
+    font-size: .8em;
+    letter-spacing: 11.5px;
+  }
+
+  @media (min-width: 760px) {
+    right: 61px;
+    bottom: 161px;
+    font-size: .9em;
+    letter-spacing: 13.3px;
+  }
+}
+
 .form {
   width: 90%;
   padding: 8px 16px 8px 10px;

@@ -15,6 +15,7 @@
 .project {
   width: 100%;
   display: inline-block;
+  padding-bottom: 1px;
   a {
     text-decoration: none;
     position: relative;
@@ -31,6 +32,7 @@
   }
 
   @media (min-width: 1200px) {
+    width: 32.7%;
     margin-left: 4px;
   }
 }
@@ -77,16 +79,25 @@
   }
 
   @media (min-width: 760px) {
-    
+    bottom: 6em;
+  }
+
+  @media (min-width: 901px) {
+    font-size: 1.1em;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.4em;
+    bottom: 7em;
   }
 
 }
 
 .project-image img {
   width: 100%;
-  filter: brightness(60%);
-  -webkit-filter: brightness(60%);
-  -moz-filter: brightness(60%);
-  -o-filter: brightness(60%);
-  -ms-filter: brightness(60%);
+  filter: brightness(55%);
+  -webkit-filter: brightness(55%);
+  -moz-filter: brightness(55%);
+  -o-filter: brightness(55%);
+  -ms-filter: brightness(55%);
 }

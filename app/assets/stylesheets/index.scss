@@ -89,6 +89,12 @@ html, body, section, .container {
     bottom: 151px;
     font-size: 4.6em;
   }
+
+  @media (min-width: 1200px) {
+    right: 300px;
+    bottom: 165px;
+    font-size: 6em;
+  }
 }
 
 .lichty {
@@ -129,6 +135,13 @@ html, body, section, .container {
     font-size: 2em;
     letter-spacing: 35px;
   }
+
+  @media (min-width: 1200px) {
+    right: 273px;
+    bottom: 176px;
+    font-size: 2em;
+    letter-spacing: 33px;
+  }
 }
 
 .webdev {
@@ -166,6 +179,13 @@ html, body, section, .container {
     bottom: 161px;
     font-size: .9em;
     letter-spacing: 13.3px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 300px;
+    bottom: 175px;
+    font-size: 0.8em;
+    letter-spacing: 13.6px;
   }
 }
 
